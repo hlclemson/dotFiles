@@ -1,0 +1,33 @@
+--require("lazy").setup({
+--  -- your existing plugins configuration
+--}, {
+--  -- Add these UI options
+--  ui = {
+--    -- border = "single", -- optional: you can change the border type
+--    title = "Lazy",
+--    custom_keys = {}, -- optional: your custom key bindings
+--  },
+--})
+
+-- Set custom highlights for Lazy after setup
+--vim.api.nvim_create_autocmd("ColorScheme", {
+--  callback = function()
+--    -- Set background color
+--    vim.api.nvim_set_hl(0, "LazyNormal", { bg = "#000000" })
+--    -- Optional: match the border color
+--    --vim.api.nvim_set_hl(0, "LazyH1", { bg = "#000000" })
+--  end,
+--})
+
+--return {
+--  "folke/lazy.nvim",
+--  config = function()
+--    vim.api.nvim_create_autocmd("ColorScheme", {
+--      callback = function()
+--        vim.api.nvim_set_hl(0, "LazyNormal", { bg = "#000000" })
+--        -- Optional: match the border color
+--        vim.api.nvim_set_hl(0, "LazyH1", { bg = "#000000" })
+--      end,
+--    })
+--  end,
+--}
