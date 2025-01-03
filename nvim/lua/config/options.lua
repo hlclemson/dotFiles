@@ -10,3 +10,5 @@ opt.clipboard = ""
 opt.pumblend = 0
 -- disable animation behavior
 vim.g.snacks_animate = false
+-- disable automatic formatting
+vim.g.autoformat = false
