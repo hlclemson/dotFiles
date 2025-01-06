@@ -8,6 +8,9 @@ local opt = vim.opt
 opt.clipboard = ""
 -- Don't make popup menu transparent
 opt.pumblend = 0
+-- enable text wrapping
+opt.wrap = true
+
 -- disable animation behavior
 vim.g.snacks_animate = false
 -- disable automatic formatting
