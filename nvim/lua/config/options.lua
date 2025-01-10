@@ -15,3 +15,5 @@ opt.wrap = true
 vim.g.snacks_animate = false
 -- disable automatic formatting
 vim.g.autoformat = false
+-- disable relative number
+--vim.opt.relativenumber = false
